@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-nav">
+        <div class="container">
+          <nav>
+            <h2>Moinuddin</h2>
+            <ul id="showmenu">
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Service">Service</a></li>
+              <li><a href="#Portfolio">Portfolio</a></li>
+              <li><a href="#Contact">Contact</a></li>
+              <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header-text" id="Home">
+        <div class="left-header">
+          <h3>Web Developer</h3>
+          <h1 id="typewriter">
+            Hello👋, <span>I'm Moinuddin Qureshi</span> <br />from India
+          </h1>
+        </div>
+
+        <div class="right-header">
+          <img
+            src="./images/./WhatsApp Image 2024-07-12 at 3.35.23 PM.jpeg"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about" id="About">
+        <div class="container">
+          <div class="row">
+            <div class="about-col1">
+              <img
+                src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_1280.png"
+                alt=""
+              />
+            </div>
+
+            <div class="about-col2">
+              <h2 class="sub-title">About Me</h2>
+              <p>
+                A highly skilled Web developer with expertise in designing,
+                developing, and implementing Web sites. I consider my self a
+                responsible, sharp-minded and orderly person. .
+              </p>
+
+              <div class="tab-title">
+                <div class="title active-link" onclick="opentab('skill')">
+                  Skills
+                </div>
+                <div class="title" onclick="opentab('Experience')">
+                  Experience
+                </div>
+                <div class="title" onclick="opentab('Education')">
+                  Education
+                </div>
+
+                <div class="title" onclick="opentab('Projects')">Projects</div>
+
+                <div class="title" onclick="opentab('certificates')">
+                  certificates
+                </div>
+              </div>
+
+              <div class="tab-content active-tab" id="skill">
+                <ul>
+                  <li>
+                    <span>C++ Programming <br /></span>
+                    <span>Html <br /></span>
+                    <span>Css <br /></span>
+                    <span>Javascript <br /></span>
+                    <span>Git<br /></span>
+                    <span>Github<br /></span>
+                    <span>Basic Figma<br /></span>
+                    <span
+                      >Learning React Js and Backend Tech As Well<br
+                    /></span>
+                    <span>Verbal and Written Communication<br /></span>
+                  </li>
+                  <li>
+                    <span>Basic Electronics Knowledge <br /></span>Active and
+                    Passive Components
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-content" id="Experience">
+                <ul>
+                  <li>
+                    <span>Dec 2022 - Jan 2023 <br /></span>Web Development
+                    (Internship) from Technook Organization
+                  </li>
+                  <li>
+                    <span>Nov 2022 - June 2023 <br /></span>Basic Electronics
+                    (Internship) from Heuristic Academy
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-content" id="Education">
+                <ul>
+                  <li>
+                    <span>September 2021 - May 2024 <br /></span>Bachelor of
+                    Engineering (B.E) in EXTC From MHSSE (MU)
+                  </li>
+                  <li>
+                    <span>June 2018 - August 2021 <br /></span>Diploma In EXTC
+                    From Fr Agnel Ploytechnic (MSBTE)
+                  </li>
+                  <li>
+                    <span>2018 <br /></span>SSC From Jafari English High School
+                    (Maharashtra Mumbai)
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-content" id="Projects">
+                <ul>
+                  <li>
+                    <span
+                      >College Website using HTML,CSS and Javascript (Full
+                      Responsive) <br
+                    /></span>
+                    <a
+                      href="https://github.com/Moinuddin02/College-Website-.git"
+                      target="_blank"
+                      >View Project</a
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >IOT Based Oil Skimmer Boat (Final Year Project 24) <br
+                    /></span>
+                    <br />
+                    <a href="./images/report24-13.pdf" target="_blank" download
+                      >View Project</a
+                    >
+                  </li>
+                  <li>
+                    <span>Gesture Hand Using IOT Based<br /></span>Sem 4th
+                    Project
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-content" id="certificates">
+                <ul>
+                  <li>
+                    <span>Web Devlopment from Technook<br /></span>
+                    <a
+                      href="https://drive.google.com/file/d/1mju-FkLz-zDnOMxN8W1D5YIGxobmt77s/view?usp=sharing"
+                      target="_blank"
+                      download
+                      >View certificates</a
+                    >
+                  </li>
+                  <li>
+                    <span>IOT Based Oil Skimmer Boat (2024) <br /></span>(Final
+                    Year Project 24)
+                    <a
+                      href="./images/DocScanner 14 Jul 2024 1-59 pm.pdf"
+                      download
+                      target="_blank"
+                    >
+                      <br /><br />View certificates</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="services" id="Service">
+      <div class="container">
+        <h1 class="sub-title1">My Service</h1>
+        <div class="service-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Devlopment</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque deserunt fuga nemo quos perferendis autem facilis
+              fugiat aperiam cumque magnam.
+            </p>
+
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-microchip"></i>
+            <h2>Basic Electronics</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque deserunt fuga nemo quos perferendis autem facilis
+              fugiat aperiam cumque magnam.
+            </p>
+
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sub-title2">My Work</div>
+    <section id="work">
+      <div class="work-list">
+        <div class="work">
+          <img
+            src="https://images.unsplash.com/photo-1612442058361-178007e5e498?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNtYXJ0cGhvbmVzfGVufDB8fDB8fHww"
+            alt=""
+          />
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>
+              Join a global network of talent by getting our app from the Play
+              Store!
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img
+            src="https://miro.medium.com/v2/resize:fit:1400/0*aVQR9kZAltUzmu8e"
+            alt=""
+          />
+          <div class="layer">
+            <h3>Coding Editor Tool</h3>
+            <p>
+              Join a global network of talent by getting our app from the Play
+              Store!
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img
+            src="https://externlabs.com/blogs/wp-content/uploads/2022/04/b2.jpg"
+            alt=""
+          />
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>
+              Join a global network of talent by getting our app from the Play
+              Store!
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <button class="btn">See More</button>
+    </section>
+
+    <section class="Contact" id="Contact">
+      <div class="container2">
+        <div class="white-line1">
+          <h2>Contact Me</h2>
+          <div class="coding">
+            <img src="./images/coding4.gif" alt="" />
+          </div>
+          <div class="Contact-info">
+          
+            <i class="fa-solid fa-paper-plane"></i>
+
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              moinuddinqureshi123786@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>9326453551</p>
+
+            <div class="social-icons">
+              <a href="https://www.facebook.com" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.twitter.com" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+
+            <div class="res-viw">
+              <div class="resume">
+                <a
+                  href="./images/Moinuddin Qureshi (7).pdf"
+                  download
+                  target="_blank"
+                  >Download Resume</a
+                >
+              </div>
+
+              <div class="view">
+                <a href="https://github.com/Moinuddin02" target="_blank"
+                  >View Me</a
+                >
+              </div>
+            </div>
+
+            <form name="submit-to-google-sheet">
+              <div class="form-group">
+                <label for="name">Enter your name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="address">Enter your address:</label>
+                <input
+                  type="text"
+                  id="address"
+                  name="Address"
+                  placeholder="Your Address"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea
+                  id="message"
+                  name="Message"
+                  placeholder="Type your message here..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="copyright">
+      <p>Copyright © 2024 All rights reserved ❤️</p>
+      <p>By Moinuddin Qureshi</p>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
